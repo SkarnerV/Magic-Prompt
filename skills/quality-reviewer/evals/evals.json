@@ -1,0 +1,23 @@
+{
+  "skill_name": "quality-reviewer",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Review the AGENTS.md file in this project and tell me if it's good enough for a new developer",
+      "expected_output": "A structured review with strengths, issues, and actionable recommendations",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "I just wrote a README.md for my new project. Can you quality-check it?",
+      "expected_output": "A review comparing README.md against README best practices with newcomer-focused criticism",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "audit the CLAUDE.md file - does it actually help Claude work with this codebase?",
+      "expected_output": "A review focused on whether the instructions are actionable for Claude specifically",
+      "files": []
+    }
+  ]
+}
